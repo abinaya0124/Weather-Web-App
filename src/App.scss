@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+li {
+  list-style: none;
+}
+.weather_99 {
+  background-color: #e0e8f1;
+  height: 100vh;
+}
+.top_bar {
+  box-shadow: 2px 2px 4px 0 #000000;
+  background-color: rgba(0, 0, 0, 0.49);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  .left_logo {
+    display: flex;
+    gap: 0.5rem;
+    h3 {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+  }
+  .refresh {
+    display: flex;
+    gap: 0.5rem;
+    button {
+      background: none;
+      color: #ffffff;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .refresh_icon {
+      background-color: #ffffff;
+      border-radius: 50%;
+      padding: 0.2rem;
+    }
+  }
+}
+.calender_cards {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-left: 5rem;
+}
