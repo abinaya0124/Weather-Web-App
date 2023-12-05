@@ -1,5 +1,4 @@
 import React from "react";
-import Calender from "./Components/Calender";
 import "./App.scss";
 import { MdOutlineRefresh, MdOutlineShareLocation } from "react-icons/md";
 import weather99 from "./Images/weather99.png";
